@@ -8,22 +8,43 @@ document.addEventListener("DOMContentLoaded", function () {
     //opgave 1: Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle de tal som er større end 20.
     // let res1 = numbersArray.filter((elm) => elm > 20)
     // console.log(res1);
+
+    // opgave 1
     const newArray = numbersArray.filter((num) => num > 20);
     // console.log(newArray);
 
-
-catsArray.push("Sniffles");
+    // Opgave 2
+    catsArray.push("Sniffles");
 
 // console.log("Opgave 2", catsArray);
 
+//opgave 3
+
 let hasTrixie = dogsArray.includes("Trixie");
 
-console.log("Opgave 3a", hasTrixie);
+//console.log("Opgave 3a", hasTrixie);
 
 
 let hasBaxter = dogsArray.some(dog => dog == "Baxter");
 
-console.log("Opgave 3b", hasBaxter);
+//console.log("Opgave 3b", hasBaxter);
+
+//opgave 4
+// Check om der i catsArray er en kat som hedder "Bagheera".
+
+// Udskriv katten i konsollen hvis den findes og ellers "undefined".
+
+// console.log("Opgave 4a", ...)
+
+let catBagheera = catsArray.find(cat => cat === "Bagheera");
+console.log("Opgave 4a", catBagheera);
+
+// Check om der i catsArray er en kat som hedder "Salem".
+// Udskriv katten i konsollen hvis den findes og ellers "undefined".
+// console.log("Opgave 4b", ...)
+
+let catSalem = catsArray.find((cat) => cat == "Salem");
+console.log("Opgave 4b", catSalem);
 
 
 
