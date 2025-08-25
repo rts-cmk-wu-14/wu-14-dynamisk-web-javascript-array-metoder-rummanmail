@@ -8,7 +8,15 @@ document.addEventListener("DOMContentLoaded", function () {
     //opgave 1: Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle de tal som er større end 20.
     // let res1 = numbersArray.filter((elm) => elm > 20)
     // console.log(res1);
-    
+    const newArray = numbersArray.filter((num) => num > 20);
+    // console.log(newArray);
+
+
+catsArray.push("Sniffles");
+
+console.log("Opgave 2", catsArray);
+
+
     // Opgave 2
     // Tilføj katten "Sniffles" til catsArray.
     // Udskriv arrayet i konsollen.
@@ -59,5 +67,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Fjern hunden "Polly" fra dogsArray og udskriv det nye array i konsollen
     
 
-}) // ends DOMContentLoaded
+// ends DOMContentLoaded
 
+})
