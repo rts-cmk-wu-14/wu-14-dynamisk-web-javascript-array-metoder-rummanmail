@@ -51,6 +51,11 @@ console.log("Opgave 4b", catSalem);
     // Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
     // Udskriv det nye array i konsollen:
     // console.log("Opgave 5", ...)
+
+let multipliedNumbers = numbersArray.map(num => num * 3);
+
+console.log("Opgave 5", multipliedNumbers);
+
     
     //     Opgave 6
     // Udskriv alle hundene i dogsArray i én lang streng.
