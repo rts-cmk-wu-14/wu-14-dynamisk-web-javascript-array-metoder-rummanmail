@@ -14,7 +14,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
 catsArray.push("Sniffles");
 
-console.log("Opgave 2", catsArray);
+// console.log("Opgave 2", catsArray);
+
+let hasTrixie = dogsArray.includes("Trixie");
+
+console.log("Opgave 3a", hasTrixie);
+
+
+let hasBaxter = dogsArray.some(dog => dog == "Baxter");
+
+console.log("Opgave 3b", hasBaxter);
+
 
 
     // Opgave 2
