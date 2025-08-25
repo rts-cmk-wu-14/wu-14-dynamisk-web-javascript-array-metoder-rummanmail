@@ -49,9 +49,9 @@ let catSalem = catsArray.find((cat) => cat == "Salem");
 //opgave 5
 
 
-let multipliedNumbers = numbersArray.map(num => num * 3);
+let multidNumbers = numbersArray.map(num => num * 3);
 
-console.log("Opgave 5", multipliedNumbers);
+console.log("Opgave 5", multidNumbers);
 
 
 
