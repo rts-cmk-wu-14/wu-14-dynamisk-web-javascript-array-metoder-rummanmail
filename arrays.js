@@ -36,15 +36,22 @@ let hasBaxter = dogsArray.some(dog => dog == "Baxter");
 
 // console.log("Opgave 4a", ...)
 
-let catBagheera = catsArray.find(cat => cat === "Bagheera");
-console.log("Opgave 4a", catBagheera);
+let catBagheera = catsArray.find(cat => cat == "Bagheera");
+//console.log("Opgave 4a", catBagheera);
 
 // Check om der i catsArray er en kat som hedder "Salem".
 // Udskriv katten i konsollen hvis den findes og ellers "undefined".
 // console.log("Opgave 4b", ...)
 
 let catSalem = catsArray.find((cat) => cat == "Salem");
-console.log("Opgave 4b", catSalem);
+//console.log("Opgave 4b", catSalem);
+
+//opgave 5
+
+
+let multipliedNumbers = numbersArray.map(num => num * 3);
+
+console.log("Opgave 5", multipliedNumbers);
 
 
 
